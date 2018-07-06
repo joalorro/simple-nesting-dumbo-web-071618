@@ -106,8 +106,8 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
-     alans_new_info = "GUI"
-     
+  
+  alans_new_info = "GUI"
   programmer_hash[:alan_kay][:known_for] = alans_new_info
   
 end
@@ -129,6 +129,6 @@ def adding_to_dennis
         }
      }
      
-  programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+  programmer_hash[:dennis_ritchie][:languages].push "Assembly"
 
 end
